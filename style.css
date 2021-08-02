@@ -1,0 +1,47 @@
+:root {
+    font-family: 'Courier New', Courier, monospace;
+    --dark-1: #1c1c1e;
+    --dark-2: #303134;
+    --light-1: #e8eaed;
+    --light-2: #8f9093;
+}
+
+body {
+    background: var(--dark-1);
+    color: var(--light-1);
+}
+
+h1 {
+    text-align: center;
+}
+
+h3,
+p {
+    margin: 0;
+}
+
+
+
+a {
+    display: block;
+    text-decoration: none;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    color: var(--light-2);
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category {
+    background: var(--dark-2);
+    flex: 30%;
+    padding-top: .5em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 1em;
+    border-radius: .3em
+}
